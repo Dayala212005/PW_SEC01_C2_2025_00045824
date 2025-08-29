@@ -21,6 +21,10 @@
 
         const parrafo = subtitulo.nextElementSibling;
         parrafo.style.color = parrafo.style.color === "blue" ? "black" : "blue";
+
+        parrafo.style.fontFamily = parrafo.style.fontFamily === "Courier New, monospace"
+            ? "Arial, sans-serif"
+            : "Courier New, monospace";
     }
 
     function agregarImagen() {
